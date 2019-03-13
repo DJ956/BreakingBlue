@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradation"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/connect_device_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_weight="0"
+        android:text="@string/none_detect_device" />
+
+    <Button
+        android:id="@+id/button_device_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:background="@drawable/frame"
+        android:text="@string/search_device" />
+
+    <ListView
+        android:id="@+id/device_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_weight="0.45"
+        android:headerDividersEnabled="false"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.26"
+        android:background="@drawable/frame"
+        android:text="@string/connect" />
+
+</LinearLayout>

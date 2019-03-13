@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="command_item">
+        <item>@string/text_cmd</item>
+        <item>@string/web_cmd</item>
+        <item>@string/camera_cmd</item>
+    </string-array>
+
+    <string-array name="text_command_item">
+        <item>@string/text_send_cmd</item>
+    </string-array>
+
+    <string-array name="web_command_item">
+        <item>@string/image_from_url</item>
+    </string-array>
+
+    <string-array name="camera_command_item">
+        <item>@string/capture_and_send_image_camera_cmd</item>
+        <item>@string/read_qr_code_and_send_camera_cmd</item>
+        <item>@string/read_bar_code_and_send_camera_cmd</item>
+    </string-array>
+</resources>

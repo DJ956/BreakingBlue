@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BreakingBlue</string>
+    <string name="search_device">デバイス検索</string>
+    <string name="none_detect_device">None</string>
+    <string name="connect">接続</string>
+
+    <string name="image_from_url_detect">ページのURLを送信</string>
+
+    <string name="text_cmd">Text関連</string>
+    <string name="text_send_cmd">Text送信</string>
+
+    <string name="web_cmd">WEB関連</string>
+    <string name="image_from_url">WEB上の画像をダウンロード</string>
+
+    <string name="camera_cmd">カメラ関連</string>
+    <string name="capture_and_send_image_camera_cmd">写真を送信</string>
+    <string name="read_qr_code_and_send_camera_cmd">QRコードのデータを送信</string>
+    <string name="read_bar_code_and_send_camera_cmd">バーコードのデータを送信</string>
+</resources>
